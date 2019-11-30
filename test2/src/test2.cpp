@@ -47,7 +47,11 @@ int main() {
 //	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 
 	Test<int> t(2323);
-	cout << t;
+	int i = 100;
+	for (i = 0; i < 20; i++)
+		cout << t << endl;
+
+	cout << "end!~" << endl;
 
 	return 0;
 }
